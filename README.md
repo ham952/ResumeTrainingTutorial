@@ -2,15 +2,16 @@
  Starting Stopping and Resuming Training
  
  https://www.pyimagesearch.com/2019/09/23/keras-starting-stopping-and-resuming-training/
- 
+
+Usage
 Initialize :
 
-$ python train.py --checkpoints output/checkpoints
+$ python train.py --checkpoints 'output/checkpoints'
 
 Continue:
 
-$ python train.py --checkpoints output/checkpoints
-	--model output/checkpoints/epoch_40.hdf5 --start-epoch 40
+$ python train.py --checkpoints 'output/checkpoints'
+	--model 'output/checkpoints/epoch_35.h5' --start-epoch 40
  
  
  
