@@ -3,6 +3,17 @@
  
  https://www.pyimagesearch.com/2019/09/23/keras-starting-stopping-and-resuming-training/
  
+Initialize :
+
+$ python train.py --checkpoints output/checkpoints
+
+Continue:
+
+$ python train.py --checkpoints output/checkpoints \
+	--model output/checkpoints/epoch_40.hdf5 --start-epoch 40
+ 
+ 
+ 
 --checkpoints : The path to our output checkpoints directory.
 
 --model : The optional path to a specific model checkpoint to load when resuming training.
