@@ -4,7 +4,9 @@
  https://www.pyimagesearch.com/2019/09/23/keras-starting-stopping-and-resuming-training/
  
 --checkpoints : The path to our output checkpoints directory.
+
 --model : The optional path to a specific model checkpoint to load when resuming training.
+
 --start-epoch : The optional start epoch can be provided if you are resuming training. By default, training starts at epoch 0 
 
 
